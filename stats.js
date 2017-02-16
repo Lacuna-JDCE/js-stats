@@ -99,6 +99,7 @@ functions.forEach(function(func)
 });
 
 
+// If the plain option is set, just output space-separated numbers.
 if( options.plain )
 {
 	let output = [];
@@ -110,6 +111,7 @@ if( options.plain )
 
 	console.log(output.join(' '));
 }else{
+	// Loop over every property and output name: value.
 	for(let prop in results)
 	{
 		console.log(prop.replace('_', ' ') + ': ' + results[prop]);
