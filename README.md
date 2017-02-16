@@ -13,7 +13,7 @@ This Node.js script parses a source file and provides information about the foll
 ```
 node ./stats.js <file> [options]
 ```
-_<file>_ is the JS source file the tool is run upon (mandatory). _[options]_ allow you to specify more settings:
+_file_ is the JS source file the tool is run upon (mandatory). _options_ allow you to specify more settings:
 
 | Long      | Short | Description                                    |
 |-----------|-------|------------------------------------------------|
