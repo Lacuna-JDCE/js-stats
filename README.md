@@ -11,7 +11,7 @@ This Node.js script parses a source file and provides information about the foll
 
 ## Running
 ```
-node stats.js <file> [options]
+node ./stats.js <file> [options]
 ```
 *<file>* is the JS source file the tool is run upon (mandatory). *[options]* allow you to specify more settings:
 
